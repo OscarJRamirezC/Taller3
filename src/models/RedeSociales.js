@@ -16,13 +16,13 @@ const RedesSociales = mongoose.Schema({
         type: Number,
         required: true,
     },
-    CuentasBaneadas: {
+    CuentasInactivas: {
         type: Number,
-        required: true,
+        required: false,
     },
     ModeradoresActivos: {
         type: Number,
-        required: true,
+        required: false,
     },
     RangoEdad: {
         type: Number,
